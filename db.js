@@ -10,6 +10,6 @@ const mongoDbConnection = () => {
         console.log(error);
         process.exit()
     }
-}
+} 
 
 export default mongoDbConnection;
