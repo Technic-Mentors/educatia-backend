@@ -13,10 +13,7 @@ mongoDbConnection();
 const app = express();
 
 // Setup CORS
-app.use(cors({
-  origin: "http://localhost:5174", // 👈 your frontend's origin
-  credentials: true
-}));
+app.use(cors())
 
 app.use(express.json());
 
